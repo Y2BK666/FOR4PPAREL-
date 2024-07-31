@@ -447,7 +447,7 @@ p {
 }
 /* End About Section */
 
-/* Pontact Person Section */
+/* Contact Person Section */
 #Contact Person .Contact Person {
 	flex-direction: column;
 	max-width: 1200px;
@@ -459,7 +459,7 @@ p {
 	width: 100%;
 }
 #Contact Person .Contact Person-item {
-	width: 80%;
+	width: 50%;
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
