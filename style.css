@@ -264,7 +264,7 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
+/* Product Section */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -324,25 +324,25 @@ p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* End Product Section */
 
-/* Projects section */
-#projects .projects {
+/* Coming Soon section */
+#Coming Soon .Coming Soon {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
+#Coming Soon .Coming Soon-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#Coming Soon .all-Coming Soon {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
+#Coming Soon .Coming Soon-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -352,7 +352,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
+#Coming Soon .Coming Soon-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -363,25 +363,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#projects .project-info h1 {
+#Coming Soon .Coming Soon-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
+#Coming Soon .Coming Soon-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#projects .project-info p {
+#Coming Soon .Coming Soon-info p {
 	color: white;
 }
-#projects .project-img {
+#Coming Soon .Coming Soon-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#projects .project-img:after {
+#Coming Soon .Coming Soon-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -391,13 +391,13 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
 }
-#projects .project-img img {
+#Coming Soon .Coming Soon-img img {
 	transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#Coming Soon .Coming Soon-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* End Coming Soon section */
 
 /* About Section */
 #about .about {
@@ -447,18 +447,18 @@ p {
 }
 /* End About Section */
 
-/* contact Section */
-#contact .contact {
+/* Pontact Person Section */
+#Contact Person .Contact Person {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 90%;
 }
-#contact .contact-items {
+#Contact Person .Contact Person-items {
 	/* max-width: 400px; */
 	width: 100%;
 }
-#contact .contact-item {
+#Contact Person .Contact Person-item {
 	width: 80%;
 	padding: 20px;
 	text-align: center;
@@ -472,25 +472,25 @@ p {
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: 0.3s ease box-shadow;
 }
-#contact .contact-item:hover {
+#Contact Person .Contact Person-item:hover {
 	box-shadow: 0px 0px 5px 0 #0000002c;
 }
-#contact .icon {
+#Contact Person .icon {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
-#contact .contact-info h1 {
+#Contact Person .Contact Person-info h1 {
 	font-size: 2.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
-#contact .contact-info h2 {
+#Contact Person .Contact Person-info h2 {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	font-weight: 500;
 }
-/*End contact Section */
+/*End Contact Person Section */
 
 /* Footer */
 #footer {
@@ -582,33 +582,33 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
+	/* Product Section */
+	#Product .Product-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
+	/* End Product Section */
 
-	/* Project */
-	#projects .project-item {
+	/* Coming Soon */
+	#Coming Soon .Coming Soon-item {
 		flex-direction: row;
 	}
-	#projects .project-item:nth-child(even) {
+	#Coming Soon .Coming Soon-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
-	#projects .project-item {
+	#Coming Soon .Coming Soon-item {
 		height: 400px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
-	#projects .all-projects .project-info {
+	#Coming Soon .all-Coming Soon .Coming Soon-info {
 		height: 100%;
 	}
-	#projects .all-projects .project-img {
+	#Coming Soon .all-Coming Soon .Coming Soon-img {
 		height: 100%;
 	}
-	/* End Project */
+	/* End Coming Soon */
 
 	/* About */
 	#about .about {
@@ -635,39 +635,39 @@ p {
 	}
 	/* End About */
 
-	/* contact  */
-	#contact .contact {
+	/* Contact Person  */
+	#Contact Person .Contact Person {
 		flex-direction: column;
 		padding: 100px 0;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
 	}
-	#contact .contact-items {
+	#Contact Person .Contact Person-items {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
 	}
-	#contact .contact-item {
+	#Contact Person .Contact Person-item {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
 	}
-	#contact .contact-item .icon {
+	#Contact Person .Contact Person-item .icon {
 		height: 100px;
 		width: 100px;
 	}
-	#contact .contact-item .icon img {
+	#Contact Person .Contact Person-item .icon img {
 		object-fit: contain;
 	}
-	#contact .contact-item .contact-info {
+	#Contact Person .Contact Person-item .Contact Person-info {
 		width: 100%;
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	/* End Contact Person  */
 }
 /* End Media Query For Tablet */
 
