@@ -432,13 +432,13 @@ p {
 #about .col-left .about-img {
 	height: 100%;
 	width: 100%;
-	position: center;
+	position: relativ;
 	border: 10px solid white;
 }
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
-	left: -33px;
+	left: -20px;
 	top: 19px;
 	height: 98%;
 	width: 98%;
